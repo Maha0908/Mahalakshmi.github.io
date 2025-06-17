@@ -1,0 +1,224 @@
+<html>
+<head>
+<style>
+body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+      color: #34495e;
+}
+.myDiv {
+   border: 5px outset ;
+   background-color: #273746; 
+   text-align: center;
+   padding:20px;
+   margin-bottom: 20px;
+}
+.head{
+    background-color:snow;
+    margin:40px auto;
+    padding:50px;
+    border-radius:15px;
+    width: 90%; 
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.head-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+ .head-content h2 {
+      color:black;
+}
+.head-button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.head-button:hover {
+  background-color: #45a049;
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* You can use space-around or center too */
+    padding: 30px;
+    gap: 20px; /* optional: space between items */
+}
+.container {
+    flex: 1 1 250px; /* fixed width for each box */
+    max-width:300px;
+    background-color:white;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 15px;
+    transition: transform 0.3s, background-color 0.3s;
+    border: 1px solid snow;
+}
+.container:hover {
+            transform:scale(1.05);
+            background-color:white;
+}
+.container img{
+    width:100%;
+    height:150px;
+    object-fit:cover;
+    display:block;
+    border-radius: 10px;
+}
+.text {
+    margin-top: 10px;
+    color:black;
+    font-weight: bold;
+}
+.button {
+      display: inline-block;
+      background-color: white;
+      color: black;
+      padding: 10px 20px;
+      margin: 10px;
+      border: 1px solid black;
+      text-decoration: none;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+}
+.button:hover {
+            background-color:beige;
+}
+.contact-container {
+  background-color: snow;
+  text-align: center;
+  padding: 50px 20px;
+  margin: 50px auto 0;
+  border-radius: 15px;
+  width: 90%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional soft shadow */
+}
+.contact-container h2 {
+  margin-bottom: 10px;
+  color: #222;
+}
+
+.contact-container .icons {
+  margin-top: 20px;
+}
+
+.contact-container .icons a {
+  margin: 0 15px;
+  color: #222;
+  font-size: 30px;
+  transition: color 0.3s;
+}
+.contact-container .icons a:hover {
+  color: darkblue;
+}
+ @media (max-width: 768px) {
+      .head-content {
+        flex-direction: column;
+        align-items: flex-start;
+}
+.container {
+        flex: 1 1 100%;
+        max-width: 100%;
+      }
+}
+.copyrights {
+  border: 5px outset;
+  background-color:#273746;
+  text-align: left;
+  padding: 20px;
+  margin: 40px auto 0;
+  width: 90%;
+  border-radius: 10px;
+}
+</style>
+<div class="myDiv">
+    <title>Mahalakshmi Portfolio</title>
+  <h2 style="color: white;">Mahalakshmi Rajasekar | Data analyst</h2> 
+  <link rel="icon" href="favicon.ico">
+</div>
+<div class="head">
+  <div class="head-content">
+    <div>
+      <h1>WELCOME TO MY PORTFOLIO</h1>
+      <p>Certified Data Analyst in SQL, Python, Power BI, and Tableau.</p>
+      <p>Explore my projects and achievements below.</p>
+    </div>
+    <a href="C:\Users\Mahalakshmi\OneDrive\Documents\MahalakshmiS_Resume.pdf" target="_blank" class="head-button">Resume</a>
+  </div>
+</div>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+<h2 style="text-align:center; color:rgb(26, 26, 31); margin-top: 30px;">FEATURED PROJECTS</h2>
+<div class="projects">
+
+<div class="container">
+  <img src="C:\Users\Mahalakshmi\OneDrive\Desktop\MyPortfolio\loan1.jpg" alt="Loan Prediction">
+  <div class="text" id="text1">Loan Approval Prediction</div>
+  <p>Loan approval prediction using Python</p>
+  <a href="https://github.com/Maha0908/Full_Data_Science_project" target="_blank" class="button">View Project</a>
+</div>
+
+<div class="container">
+  <img src="C:\Users\Mahalakshmi\OneDrive\Desktop\MyPortfolio\insurance.jpg" alt="Insurance Data">
+  <b><div class="text" id="text2">Insurance Classification</div></b>
+  <p>Classification model using insurance data set in Python</p>
+  <a href="https://github.com/Maha0908/Classification-Model" target="_blank" class="button">View Project</a>
+</div>
+
+<div class="container">
+  <img src="C:\Users\Mahalakshmi\OneDrive\Desktop\MyPortfolio\a.html\Deep-Learning.jpeg" alt="Car price prediction">
+  <b><div class="text" id="text4">Deep Learning</div></b>
+  <p>Car price prediction using deep learning Technique in Python</p>
+  <a href="https://github.com/Maha0908/DeepLearning" target="_blank" class="button">View Project</a>
+</div>
+
+<div class="container">
+  <img src="C:\Users\Mahalakshmi\OneDrive\Desktop\MyPortfolio\MLim.jpg" alt="Timeseries Analysis">
+  <b><div class="text" id="text3">Ecommerce</div></b>
+  <p>Ecommerce Prediction using Machine Learning technique in Python</p>
+  <a href="https://github.com/Maha0908/ecommerce" target="_blank" class="button">View Project</a>
+</div>
+
+<div class="container">
+  <img src="C:\Users\Mahalakshmi\OneDrive\Desktop\MyPortfolio\powerbi.jpg" alt="PowerBi">
+  <b><div class="text" id="text4">Dashboard</div></b>
+  <p>Company Hiring Pattern and Skill Gap Identification using PowerBi</p>
+  <a href="https://github.com/Maha0908/PowerBi-Dashboard/blob/main/Global%20AI%20job%20market.pbix" target="_blank" class="button">View Project</a>
+</div>
+
+<div class="container">
+  <img src="C:\Users\Mahalakshmi\OneDrive\Desktop\MyPortfolio\Tableau.png" alt="Tableau">
+  <b><div class="text" id="text5">Dashboard</div></b>
+  <p>Exploratory Data analysis using Timeseries data set using Tableau</p>
+  <a href="https://github.com/Maha0908/TableauDashboard" target="_blank" class="button">View Project</a>
+</div>
+
+</div>
+<div class="contact-container">
+  <h2>Contact Me</h2>
+  <p>Let's connect!</p>
+  <div class="icons">
+    <a href="mailto:manju.maha0908@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
+    <a href="https://www.linkedin.com/in/mahalakshmi-rajasekar-b775b0267/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/Maha0908" target="_blank"><i class="fab fa-github"></i></a>
+  </div>
+</div>
+  <div>
+    <div class="copyrights">
+        <p style="color:white;"><i class="fa-solid fa-copyright"></i>  2025 Mahalakshmi Rajasekar | Designed using HTML,css</p>
+    </div>
+  </div>
+</body>
+</html>
